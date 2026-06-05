@@ -1,79 +1,88 @@
-# 3-VI-CHARACTERISTICS-OF-GUNN-OSCILLATOR
+# 04-POWER-MEASUREMENT-USING-MAGIC-TEE
 
-**Aim:**
+**A.Aim:**
 
-To study I-V characteristics of Gunn Diode and depth of modulation of modulation of PINdiode.
+To measure isolation between E and Harms of the magic tee and Demonstrate 3 dB powerdivision in the arm of magic tree.
 
-**Apparatus Used:**
+**B.Apparatus Used:**
 
-Gunn power supply, Gunn oscillator, PIN modulator, Isolator, Frequency Meter, Variableattenuator, Detector mount, Slotted section, VSWR meter.
+Klystron power supply, Klystron Mount, Isolator, Attenuator, Frequency meter, VSWR meter,magic tee and matched terminations.
 
-**Experimental Setup:**
+**C.Experimental Setup:**
 
-<img width="880" height="180" alt="image" src="https://github.com/user-attachments/assets/c5e2a20b-5047-4518-886c-c020728660d5" />
+<img width="701" height="358" alt="image" src="https://github.com/user-attachments/assets/8619d64e-d78f-49e2-b0f8-2e2dc038f6c9" />
 
-**Theory**
+**D.Theory:**
 
-The Gunn oscillator is base on negative differential conductivity effect in bulk semi- conductors. Gunn diode has two conduction bands separated by an energy gap (greater than thermal agitation energies). When an electron is moved to the satellite energy band, it will have negative differentialmobility. This produces the negative resistance required for the oscillations.
-In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this case the oscillationfrequency is determined by cavity dimension than by diode itself. Although Gunn oscillator can be amplitude-modulated with the bias voltage, separate PIN modulator through is used in this experiment. A square wave modulating signal is applied through the modulator on to the microwave carrier signal.
+A four port junction which is a combination of an E-plane and H-plane tee is called Hybrid Tee.When matched elements are introduced to reduce the reflections, it is called a magic Tee.
+It has four arms or ports which have the names indicated in figure 9.
 
-<img width="445" height="304" alt="image" src="https://github.com/user-attachments/assets/42d87349-4aa0-4730-bb70-9b4897411b7d" />
+<img width="288" height="232" alt="image" src="https://github.com/user-attachments/assets/826d1e4f-cdf8-496a-b571-a34130bcd30b" />
 
-**Procedure:**
+The arm which makes an H-plane tee with the collinear arm is called H-arm or Shunt arm. The fourth arm which makes E-plane tee with the collinear arms is called E- arm or series arm. The shunt and series arms are polarized. i.e. the voltage vectors in these two arms are perpendicular toeach other. Therefore as long as there is nothing within the junction to rotate
+the polarization, there can be no coupling between the two arms. The E and H arms are matched byemploying posts and irises to minimize reflections from these two ports.
+The magic associated with the hybrid junction is the way in which the power is divided in the various arms. The signal fed into the shunt or H-arms divides its ~ If equally and in phase in the twoside arms with no coupling in E-arm. When the signal is fed into the series or E-arm it also divides itself equally in the two arms, but this time two halves are 180o out of phase ad there is no coupling to the H-arm. If the power is fed into one of the arms, it divides equally in the shunt and series arm and there is no coupling in the other side arm. That is to finally that in a magic tee, opposite arms are isolated.
+A magic tee can also be used as a signal combiner. If the signals are fed to both the side arms, theywill combine in phase in H-arm and 180o out of phase in E-arm.
 
-1.	Set the components and equipments as shown in figure above.
-2.	Initially set the variable attenuator for maximum attenuation.
-3.	Keep the control knob of Gunn power supply as below : Meter switch	:	‘OFF’
-    Gunn bias knob	:	Fully anti-clockwise Pin bias knob/Mod Amplifier:	Mid position
-    Pin mod frequency	:	Mid position
-4.	Keep the, control knob of VSWR meter as below:
-    Meter switch	:	Normal
-    Input switch	:	crystal low impedance/ 200K Range db switch	:	50db
-    Gain control knob	:	Fully clockwise
-5.	Set the micrometer of Gunn oscillator between 5-7mm for required frequency of operation.
-6.	‘ON’ the Gunn power supply, VSWR meter and cooling fan.
-7.	Keep the mode switch of Gunn power supply to square wave/internal Modulation.
-8.	Turn the meter knob to voltage position and note that, as Gunn bias voltage is varied currentstarts decreasing. This indicates negative resistance characteristic of Gunn diode. Apply the voltage such that the device is in the middle of the negative resistance region.
-9.	Connect detector output to SWR meter.
-10.	Adjust the square wave modulation frequency to approximately 1KHz.
-11.	Change the meter range if no deflection is observed.
-12.	Keep the slotted line probe at position where maximum deflection in meter is observed.
-13.	Adjust the attenuator setting, gain control knob on VSWR meter and tune the detectorplunger for pointer to indicate VSWR 1.
-14.	Move detector probe along the slotted line and note position of probe where pointer comes to extreme left position, which is first minimum. In order to know exact position of minimum note the positions of equal response points on either side of the minimum and then the midpoint of those positions will give position of minimum. The same way note nextminimum positions.
-15.	Repeat the above procedure for different settings of micrometer.
+**A magic tee is normally characterized by two quantities:**
 
-**Depth of Modulation of PIN Diode:**
+1.	Isolation between E and H arms
+2.	Power division in collinear arms
 
-1.	Apply Gunn Bias Voltage slowly so that panel meter of Gunn power supply reads 8V.
-2.	Tune the PIN modulator bias voltage and frequency knob for maximum output on theoscilloscope.
-3.	Coincide the bottom of square wave oscilloscope to some reference level and note down themicrometer reading of variable attenuator.
-4.	Now with help of variable attenuator coincide the top of square wave to same referencelevel and note down the micrometer reading.
-5.	Connect VSWR to detector mount and note down the dB reading in VSWR meter for boththe micrometer reading the variable attenuator.
-6.	The difference of both dB reading of VSWR meter gives the modulation depth of PINmodulator.
+**Isolation between E and H arms**
 
-*Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
-
-**B.Observation**: 
-
-![WhatsApp Image 2025-11-06 at 08 56 02_52582a18](https://github.com/user-attachments/assets/dabc28dc-c876-4a92-ac55-970b38037cb3)
+If the power flowing into E arm is taken as PE and power flowing out of H-arm as PH thenIsolation(dB) = -10 log10 PH/ PE This assumes that both the collinear arms are match terminated.
 
 
-**C.Analysis of Results**
 
-![WhatsApp Image 2025-11-06 at 08 56 03_b5da6062](https://github.com/user-attachments/assets/8752b45d-96e3-40cc-8304-e9c691bdb644)
+**Power division**
 
+The power fed in either the E or H arm should divide itself equally in both the side arms, when the opposite port is match terminated. If we designate the power entering the E arm as PE and power in side arms as PC1 and PC2 then the ratio of the power coupled in side arms to that entering inthe E-arm is given by the relation.
+Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
 
-**D.Conclusions:** 
+**E.	Procedure: General**
 
-The experiment successfully demonstrates the negative resistance behavior of the Gunn diode, confirming its ability to generate microwave oscillations. The I–V curve clearly shows the region of negative differential resistance, essential for oscillation. The PIN diode modulator effectively varied the signal amplitude, and the depth of modulation was accurately measured. Thus, the Gunn diode oscillator and PIN modulator were found to work efficiently for microwave generation and amplitude modulation applications.
+1.	Set up the equipment as shown in fig 9a.
+2.	Keep the control knobs of Klystron Power Supply as belowMode Switch	: AM
+    Beam Voltage Knob : Fully Anti Clockwise
+    Repeller Voltage Knob	: Fully Clockwise Meter Switch	: Cathode Voltage Position
+3.	Measurement or isolation between E and H arms
+    3.1	Set the attenuator around 20dB. Let this setting be (A1) dB
+    3.2	Achieve a state reference reading on the SWR meter, preferably in 40dB range of theSWR meter
+    3.3	Disconnect and setup as shown in fig 9b
+    3.4	Reduce the attenuation till the SWR meter reads the value obtained in step 3.2 notethe attenuation setting (A2) dB. The difference in the attenuator setting (A1-A2) dB gives the isolation in dB.
+4.	Experimental setup for demonstrating the 3 dB power division in the collinear arms.
+    4.1	Now the power input be either E or H arms.
+    4.2	Set the attenuator to get reference reading on SWR meter without the componentunder test. Note the attenuator setting (A1) dB
+    4.3	Connect the component under test(Magic tee)
+    4.4	Reduce the attenuation to get the reference reading obtained in step 4.2
+    4.5	Note down the attenuator setting (A2) dB
+
+The difference in the attenuator settings gives the ration of the
+power coupled to thecollinear to that in the main arm, in dB. This value is around 3dB.
+
+**F.	Observation: ( Include your own Table relevant to the Experiment)**
+
+**Isolation measurement** (Tabulation)
+
+**Measurement of power division** 
+![WhatsApp Image 2025-11-15 at 09 15 28](https://github.com/user-attachments/assets/d7aa5303-c0c8-400b-a628-89bfcb538a32)
+
+**G.	Analysis of Results: (Write your own)**
+
+<img width="1280" height="220" alt="image" src="https://github.com/user-attachments/assets/82c665de-7ca6-4b37-a55b-039761d55b5b" />
+
+**H.	Conclusions: (Write your Own)**
+
+Isolation between E and H arms (dB) = (A1 – A2) dB
+Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
 
 **Precautions:**
 
-   •	Check the connections before switching on the kit.
-   •	Connections should be done properly.
-   •	Observation should be taken properly.
+•	Check the connections before switching on the kit.
+•	Connections should be done properly.
+•	Observation should be taken properly.
 
 **Result:**
-
-The I–V characteristics of the Gunn diode were successfully plotted, showing a clear negative resistance region. The depth of modulation of the PIN diode was calculated from the difference in attenuation readings, confirming proper amplitude modulation of the microwave signal.
+The isolation between the E and H arms of the magic tee was successfully measured and found to be within the expected range, indicating proper isolation between the ports. The power division between the collinear arms was observed to be approximately 3 dB, confirming that the magic tee equally divides the input power into two arms with minimal loss. Thus, the magic tee functions effectively as a hybrid junction for power division and signal isolation in microwave systems.
 
